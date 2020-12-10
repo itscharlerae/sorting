@@ -1,0 +1,8 @@
+
+function pivotHelp() {
+
+}
+
+function quickSort() {
+    
+}
