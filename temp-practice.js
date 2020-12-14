@@ -29,3 +29,21 @@ function squareIt(num) {
 
 console.log(cbReturn(5, doubleIt, squareIt));
 console.log(cbReturn(1, doubleIt, squareIt));
+
+// writing my own forEach function
+const names = ['kafel', 'cindy', 'jon', 'paloma'];
+
+names.forEach(name => console.log(mane));
+
+function myForEach(array, cb) {
+    for(i = 0; i < array.length; i++){
+      cb(array[i]);
+    }
+    return 
+  }
+  
+  function ready(person) {
+    console.log(`${person} is Ready!!`);
+  }
+  
+  myForEach(names, ready);
